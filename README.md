@@ -20,7 +20,9 @@ const rows = [
     { id: 3, a: 283, b: 238, c: 123 },
 ];
 
-const result = getAverages(rows, ['id']);
+const skip = ['id'];
+
+const result = getAverages(rows, skip);
 // ==> {"a":279.6666666666667,"b":324,"c":279.3333333333333}
 ```
 
